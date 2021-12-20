@@ -8,7 +8,11 @@ def mensaje():
     print ("puntos de fuejo")
 
 def descarga():
+
+    ee.Authenticate()
+    ee.Initialize()
  
+
     Map = geemap.Map()
 
 
